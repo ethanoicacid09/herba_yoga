@@ -1,3 +1,15 @@
+:root {
+  --bg-color: #f3f9f3;
+  --text-color: #2e4d3b;
+  --box-color: #ffffff;
+  --section-bg: #e8f5e9;
+  --footer-bg: #c8e6c9;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
 
 /* General Reset */
 * {
@@ -72,3 +84,19 @@ footer {
   background-color: #c8e6c9;
   color: #2e4d3b;
 }
+
+body.dark-mode {
+  --bg-color: #1e1e1e;
+  --text-color: #e0f7fa;
+  --box-color: #2a2a2a;
+  --section-bg: #263238;
+  --footer-bg: #37474f;
+}
+
+.btn.small {
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 10px 0;
+  background-color: #455a64;
+}
+

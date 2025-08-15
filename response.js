@@ -17,4 +17,13 @@ document.getElementById("yogaTip").textContent =
 
 document.getElementById("herbTip").textContent =
   herbTips[Math.floor(Math.random() * herbTips.length)];
+const toggleBtn = document.getElementById("toggleTheme");
+
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  toggleBtn.textContent = document.body.classList.contains("dark-mode")
+    ? "☀️ Light Mode"
+    : "🌙 Dark Mode";
+});
+
 

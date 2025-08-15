@@ -1,1 +1,74 @@
 
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Kurenaido', sans-serif;
+  background-color: #f3f9f3;
+  color: #2e4d3b;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/yoga-nature.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #81c784;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #66bb6a;
+}
+
+/* Highlight Section */
+.highlight-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #e8f5e9;
+  flex-wrap: wrap;
+}
+
+.highlight-box {
+  width: 300px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-left: 5px solid #66bb6a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #c8e6c9;
+  color: #2e4d3b;
+}
